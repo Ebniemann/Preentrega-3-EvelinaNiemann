@@ -1,0 +1,45 @@
+@import 'partials/variables';
+@import 'partials/reset';
+@import 'partials/link';
+@import 'partials/button';
+@import 'partials/header';
+@import 'partials/index';
+@import 'partials/carreras';
+@import 'partials/faqs';
+@import 'partials/footer';
+@import 'partials/404';
+@import 'partials/validar';
+@import 'partials/car-shop';
+@import 'partials/check';
+
+
+
+  
+    .general-cart{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+  
+    }
+  
+    .total{
+      display: flex;
+      justify-content: flex-end;
+    }
+
+
+    .buttonAdd {
+      text-decoration: none;
+      background-color: map-get($map: $color, $key: amarillo);
+      border: 1px solid map-get($map: $color, $key: amarillo);
+      color: rgb(46, 46, 46);
+      border-radius: 8px;
+      width: 30%;
+      font-family: $font-sans;
+    }
+
+    .btnEliminar{
+      text-decoration: none;
+      background-color: white;
+      border: white;
+    }

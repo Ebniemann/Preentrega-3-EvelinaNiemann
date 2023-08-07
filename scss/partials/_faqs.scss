@@ -1,0 +1,23 @@
+.accordion {
+  grid-column: 3/15;
+  margin-bottom: 50px;
+
+  h1 {
+    color: white;
+  }
+}
+
+.contact {
+  grid-column: 3/15;
+  color: white;
+
+  h2 {
+    font-size: 35px;
+    font-family: $font-sans;
+  }
+}
+
+.modalContact{
+  grid-column: 3/15;
+}
+

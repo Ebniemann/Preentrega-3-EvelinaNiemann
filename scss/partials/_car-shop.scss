@@ -1,0 +1,40 @@
+i {
+  cursor: pointer;
+  position: relative;
+
+  span{
+    position: absolute;
+    font-size: 15px;
+    color: yellow;
+    bottom: 12px;
+    right: -10px;
+  }
+
+  .cart {
+    overflow: scroll;
+    display: none;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background-color: #ffff;
+    border-radius: 5px 0 0 5px;
+    color: black;
+    font-family: 'circular';
+  
+    buy-cart{
+      display: flex;
+      justify-content: space-between;
+      font-size: 25px;
+    }
+    
+  }
+
+  &:hover > .cart{
+    display: block;
+  }
+}
+
+
+  
